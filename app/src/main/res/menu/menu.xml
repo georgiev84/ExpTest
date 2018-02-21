@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.activities.UserListActivity">
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="TEst"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/menu_search"
+        android:title="Test2"
+        android:hint="Търсене"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_search_category_default"/>
+</menu>
